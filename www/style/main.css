@@ -1,0 +1,53 @@
+:root{
+    --deep-blue: #7BD6DB;
+    --light-blue: #81DCE1;
+    --light-green: #8EE7B1;
+    --brown: #E2AF90;
+    --peach: #FAF3E9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-size: 16px;
+}
+
+.passport {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.surround-passport{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px ;
+    width: 80%;
+    border-radius: 5px;
+    background-color: var(--light-blue);
+}
+
+.inside-passport {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    height: 95%;
+    width: 98%;
+    border: 2px dashed var(--peach);
+    border-radius: 5px;
+    background-color: var(--deep-blue);
+}
+
+.passport-img {
+    display: flex;
+    margin: 0 25px;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: var(--brown);
+}
