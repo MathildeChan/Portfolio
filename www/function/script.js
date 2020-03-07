@@ -1,0 +1,1 @@
+//Script permettant de créer les animations de la page
