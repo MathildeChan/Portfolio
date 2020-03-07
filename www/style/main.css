@@ -15,6 +15,27 @@ body {
     font-size: 16px;
 }
 
+.header {
+    position: fixed;
+    height: 250px;
+    display: flex;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.header .header-img {
+    object-fit: cover;
+    height: inherit;
+}
+
+.header span {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+}
+
 .passport {
     display: flex;
     flex-direction: row;
