@@ -11,7 +11,8 @@
 <body>
 
 <header class="header">
-
+    <span class="header-name">&lsaquo; Mathilde Goré /&rsaquo;</span>
+    <img src="" class="header-img">
 </header>
     <div class="passport">
     <div class="surround-passport">
