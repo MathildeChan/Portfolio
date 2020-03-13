@@ -15,6 +15,7 @@ body {
     margin: 0;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 
 #header {
@@ -32,6 +33,7 @@ body {
     object-fit: cover;
     filter: blur(1px) opacity(85%);
     width: 100%;
+    z-index: 1;
 }
 /*TODO: Rajouter les crédits si je garde cette image*/
 /*<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@clemhlrdt?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Clément H"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Clément H</span></a>*/
@@ -50,40 +52,125 @@ body {
 
 .header-text h2 {
     color: white;
-    font-size: 2em;
+    font-size: 3em;
 }
 
-#cloud {
-    width: 245px;
-    height: 84px;
-    /*
-    background: linear-gradient(top, var(--peach) 5%, 100% var(--dark-peach));
-    */
+.cloudy{
+    position: absolute;
+}
+
+.cloudy.right {
+    right: -3%;
+    top: 35%;
+}
+
+.cloudy.left {
+    left: -3%;
+    top: 35%;
+}
+
+.cloudy.left-second {
+    left: 5%;
+    top: 40%;
+}
+
+#first-cloud {
+    width: 196px;
+    height: 68px;
+
+    background: var(--brown);
+    border-radius: 100px;
+    position: relative;
+    z-index:3;
+}
+
+#first-cloud::after, #first-cloud::before{
+    content:'';
+    position: absolute;
+    background: var(--brown);
+    z-index:2;
+}
+
+#first-cloud::after{
+    width:56px;
+    height: 56px;
+    border-radius: 100px;
+    top:-30px;
+    left:40px;
+}
+
+#first-cloud::before{
+    width: 88px;
+    height: 88px;
+    border-radius: 150px;;
+    top:-50px;
+    left:85px;
+}
+
+#tiny-cloud {
+    width: 147px;
+    height: 51px;
 
     background: var(--dark-peach);
     border-radius: 100px;
     position: relative;
+    z-index:3;
 }
 
-#cloud::after, #cloud::before{
+#tiny-cloud::after, #tiny-cloud::before{
     content:'';
     position: absolute;
     background: var(--dark-peach);
-    z-index:-1;
+    z-index:2;
 }
 
-#cloud::after{
-    width:70px;
-    height: 70px;
+#tiny-cloud::after{
+    width: 66px;
+    height: 66px;
     border-radius: 100px;
-    top:-30px;left:40px;
+    top:-40px;
+    left:20px;
 }
 
-#cloud::before{
-    width: 110px;
-    height: 110px;
+#tiny-cloud::before{
+    width: 42px;
+    height: 42px;
     border-radius: 150px;;
-    top:-50px;left:100px;
+    top:-30px;
+    left:80px;
+}
+
+#last-cloud {
+    width: 196px;
+    height: 68px;
+
+    background: var(--peach);
+    border-radius: 100px;
+    position: relative;
+    z-index:3;
+}
+
+#last-cloud::after, #last-cloud::before{
+    content:'';
+    position: absolute;
+    background: var(--peach);
+    z-index:2;
+}
+
+#last-cloud::after{
+    width:56px;
+    height: 56px;
+    border-radius: 100px;
+    top:-30px;
+    left:40px;
+}
+
+#last-cloud::before{
+    width: 88px;
+    height: 88px;
+    border-radius: 150px;;
+    top:-50px;
+    left:85px;
 }
 
 #container {

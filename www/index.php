@@ -18,7 +18,18 @@
             <h2>&lsaquo; Mathilde Goré /&rsaquo;</h2>
         </div>
     </header>
-
+    <div class="cloudy left">
+        <div id="first-cloud"></div>
+    </div>
+    <div class="cloudy left-second">
+        <div id="tiny-cloud"></div>
+    </div>
+    <div class="cloudy right">
+        <div id="last-cloud"></div>
+    </div>
+    <div class="airplane-trail">
+        <img src="img/airplane-trail.svg">
+    </div>
     <div id="container">
         <div class="passport">
             <div class="surround-passport">
@@ -30,9 +41,7 @@
                 </div>
             </div>
         </div>
-        <div id="cloud">
-            
-        </div>
+
     </div>
     <footer id="footer">
 
