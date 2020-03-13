@@ -37,6 +37,12 @@
                     <div class="passport-img">
                     </div>
                     <div class="passport-info">
+                        <h3>Nom :</h3>
+                        <p>Goré</p>
+                        <h3>Prénom :</h3>
+                        <p>Mathilde</p>
+                        <h3>Date de naissance :</h3>
+                        <time datetime="2000-09-19">19 Septembre 2000</time>
                     </div>
                 </div>
             </div>

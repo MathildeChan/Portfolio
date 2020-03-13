@@ -55,6 +55,15 @@ body {
     font-size: 3em;
 }
 
+.airplane-trail {
+    z-index: 2;
+    width: 75%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+
+}
+
 .cloudy{
     position: absolute;
 }
@@ -81,14 +90,14 @@ body {
     background: var(--brown);
     border-radius: 100px;
     position: relative;
-    z-index:3;
+    z-index:4;
 }
 
 #first-cloud::after, #first-cloud::before{
     content:'';
     position: absolute;
     background: var(--brown);
-    z-index:2;
+    z-index:3;
 }
 
 #first-cloud::after{
@@ -114,14 +123,14 @@ body {
     background: var(--dark-peach);
     border-radius: 100px;
     position: relative;
-    z-index:3;
+    z-index:4;
 }
 
 #tiny-cloud::after, #tiny-cloud::before{
     content:'';
     position: absolute;
     background: var(--dark-peach);
-    z-index:2;
+    z-index:3;
 }
 
 #tiny-cloud::after{
@@ -147,14 +156,14 @@ body {
     background: var(--peach);
     border-radius: 100px;
     position: relative;
-    z-index:3;
+    z-index:4;
 }
 
 #last-cloud::after, #last-cloud::before{
     content:'';
     position: absolute;
     background: var(--peach);
-    z-index:2;
+    z-index:3;
 }
 
 #last-cloud::after{
@@ -196,9 +205,8 @@ body {
 
 .inside-passport {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-self: center;
-    justify-content: center;
     height: 95%;
     width: 98%;
     border: 2px dashed var(--peach);
@@ -208,9 +216,17 @@ body {
 
 .passport-img {
     display: flex;
+    flex-direction: column;
+    align-self: center;
     margin: 0 25px;
     width: 225px;
     height: 225px;
     border-radius: 50%;
     background-color: var(--brown);
+}
+
+.passport-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
