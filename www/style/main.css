@@ -218,7 +218,7 @@ body {
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin: 0 25px;
+    margin: 0 50px;
     width: 225px;
     height: 225px;
     border-radius: 50%;
@@ -227,11 +227,16 @@ body {
 
 .passport-info {
     align-self: center;
-    padding: 0 25px;
+    padding-left:75px;
+}
+
+.passport-contact-info {
+    align-self: center;
+    padding-left:150px;
 }
 
 .passport-info h3 {
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .passport-info p{

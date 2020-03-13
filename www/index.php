@@ -43,9 +43,24 @@
                         <p>Mathilde</p>
                         <h3>Date de naissance :</h3>
                         <p><time datetime="2000-09-19">19 Septembre 2000</time></p>
+                        <h3>Taille :</h3>
+                        <p>1m63</p>
+                    </div>
+                    <div class="passport-contact-info">
+                        <h3>Adresse e-mail :</h3>
+                        <p>mathilde.gore61@gmail.com</p>
+                        <h3>Adresse postale :</h3>
+                        <p>2 rue Singer
+                            14000 Caen</p>
+                        <h3>Numéro de téléphone :</h3>
+                        <p>0695343234</p>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="title-part">     
+            <h2><i class="fas fa-graduation-cap"></i>Mes études</h2>
         </div>
 
     </div>
