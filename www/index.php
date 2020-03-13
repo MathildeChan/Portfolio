@@ -42,7 +42,7 @@
                         <h3>Prénom :</h3>
                         <p>Mathilde</p>
                         <h3>Date de naissance :</h3>
-                        <time datetime="2000-09-19">19 Septembre 2000</time>
+                        <p><time datetime="2000-09-19">19 Septembre 2000</time></p>
                     </div>
                 </div>
             </div>

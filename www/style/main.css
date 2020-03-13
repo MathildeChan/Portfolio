@@ -190,7 +190,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 75px 0;
+    margin: 80px 0;
 }
 
 .surround-passport {
@@ -226,7 +226,14 @@ body {
 }
 
 .passport-info {
-    display: flex;
-    flex-direction: column;
     align-self: center;
+    padding: 0 25px;
+}
+
+.passport-info h3 {
+    margin: 15px 0;
+}
+
+.passport-info p{
+    margin: 10px 0;
 }
