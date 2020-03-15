@@ -275,7 +275,7 @@ body {
 .form-input {
     display: block;
     width: 90%;
-    height:30px;
+    height: 30px;
     padding: 5px;
     outline: none;
     font-size: 0.9em;
@@ -285,24 +285,23 @@ body {
 }
 
 .form-input.textarea {
-min-height: 100px;
+    min-height: 100px;
     resize: none;
 }
 
-.form-submit-button{
-height: 50px;
-font-size: 1em;
-padding: 10px;
-margin: 10px;
-border: 2px solid;
+.form-submit-button {
+    height: 50px;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
     border-radius: 20px;
     background-color: var(--deep-blue);
     color: white;
-
 }
 
-.form-submit-button:hover{
-cursor: pointer;
-transition: background-color ease 500ms;
-background-color:var(--light-blue);
-    }
+.form-submit-button:hover {
+    cursor: pointer;
+    transition: background-color ease 500ms;
+    background-color: var(--light-blue);
+}
