@@ -19,6 +19,28 @@ body {
     overflow-x: hidden;
 }
 
+.construction {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-image: repeating-linear-gradient(-45deg,
+      #ffee00,
+      #ffee00 20px,
+      var(--black) 20px,
+      var(--black) 40px
+    );
+    filter: opacity(90%);
+    height: 75px;
+    z-index: 998;
+}
+
+.constru-title{
+    text-align: center;
+    color: white;
+    z-index: 999;
+}
+
 #header {
     height: 300px;
     position: relative;

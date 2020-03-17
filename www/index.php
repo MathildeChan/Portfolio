@@ -18,6 +18,9 @@
             <h2>&lsaquo; Mathilde Goré /&rsaquo;</h2>
         </div>
     </header>
+    <div class="construction">
+    <h1 class="constru-title">SITE EN CONSTRUCTION</h1>
+    </div>
     <div class="cloudy left">
         <div id="first-cloud"></div>
     </div>
