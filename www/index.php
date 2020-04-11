@@ -38,6 +38,7 @@
             <div class="surround-passport">
                 <div class="inside-passport">
                     <div class="passport-img">
+                        <img src="img/perso-protfolio.png">
                     </div>
                     <div class="passport-info">
                         <h3>Nom :</h3>
@@ -88,6 +89,7 @@
             <div class="form-field">
                 <button class="form-submit-button" type="submit" name="submit" name="submit"><i class="fas fa-paper-plane"></i>&nbsp;Envoyer</button>
             </div>
+            <sub>Tous les éléments indiqués par un * doivent être remplis</sub>
             </form>
         </div>
 
