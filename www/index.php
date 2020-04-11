@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
 
     <header id="header">
@@ -72,6 +73,10 @@
         </div>
 
         
+        <?php
+        
+        ?>
+
         <div class="contact-form">
             <form method="post" target="" id="contact_form">
             <div class="form-field">
@@ -87,7 +92,7 @@
                 <textarea  class="form-input textarea" name="message" cols="30" rows="3" id="message"></textarea>
             </div>
             <div class="form-field">
-                <button class="form-submit-button" type="submit" name="submit" name="submit"><i class="fas fa-paper-plane"></i>&nbsp;Envoyer</button>
+                <button class="form-submit-button" type="submit" name="envoyer" name="submit"><i class="fas fa-paper-plane"></i>&nbsp;Envoyer</button>
             </div>
             <sub>Tous les éléments indiqués par un * doivent être remplis</sub>
             </form>
